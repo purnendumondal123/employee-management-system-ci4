@@ -1,0 +1,114 @@
+/* =========================
+   Footer
+========================= */
+
+footer{
+    background-color: rgb(19, 19, 100);
+    padding: 40px 20px 20px;
+    margin-top: 50px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer > div{
+    min-width: 180px;
+}
+
+.footer h3{
+    margin-bottom: 10px;
+}
+
+.footer ul{
+    padding: 0;
+}
+
+.footer ul li{
+    margin: 8px 0;
+}
+
+.footer ul a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer ul a:hover{
+    color: rgb(143, 39, 241);
+}
+
+.text-center{
+    text-align: center;
+    color: gray;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255,255,255,.15);
+    padding-top: 20px;
+}
+
+/* =========================
+   Common Utility Classes
+========================= */
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.text-purple{
+    color: rgb(143, 39, 241);
+}
+
+.text-yellow{
+    color: rgb(249, 218, 16);
+}
+
+.text-center-util{
+    text-align: center;
+}
+
+.mt-1{
+    margin-top: 10px;
+}
+
+.mt-2{
+    margin-top: 20px;
+}
+
+.mt-3{
+    margin-top: 30px;
+}
+
+.mb-1{
+    margin-bottom: 10px;
+}
+
+.mb-2{
+    margin-bottom: 20px;
+}
+
+.mb-3{
+    margin-bottom: 30px;
+}
+
+/* =========================
+   Footer Responsive
+========================= */
+
+@media (max-width: 768px){
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer > div{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,126 @@
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(70, 70, 227);
+    font-size: 1.01rem;
+    background-color: white;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstSection > div{
+    width: 35%;
+    /* background-color: red; */
+}
+.leftSection{
+    /* background-color: red; */
+    font-size: 2rem;
+    margin-top: 80px;
+}
+.rightSection img{
+    width: 80%;
+    margin: 50px 0;
+}
+#element{
+    color: rgb(93, 93, 203);
+}
+.purple{
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(143, 39, 241);
+}
+.section2{
+    height: 250px;
+}
+section hr{
+    border: 2px solid rgb(249, 218, 16);
+    border-radius: 50px;
+    height: 5px;
+    margin:30px 50px;
+    background-color: rgb(9, 249, 53);
+}
+section h1{
+    padding: 5px 50px;
+}
+section .row{
+    height: 1px;
+    background-color: rgb(137, 137, 240);
+    margin: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+section .row >div{
+    width: 1px;
+    height: 50px;
+    background-color: rgb(137, 137, 240);
+}
+section .row .skillrec{
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: -50px;
+}
+section .row img{
+    width: 20px;
+    height: 20px;
+    padding: 0 5px;
+}
+
+
+/* +++++ Footer css */
+footer {
+    /* height: 20rem; */
+    background-color: rgb(19, 19, 100);
+    padding: 30px 40px;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer ul a{
+    text-decoration: none;
+    color: white;
+}
+footer ul li {
+    list-style: none;
+    padding: 5px 10px;
+}
+
+.footer>div {
+    width: 200px;
+}
+.text-center{
+    text-align: center;
+    padding-top: 55px;
+    color: gray;
+}    
+
+/* ++++++++ about page css */
+.section-left li {
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px 0;
+    color: rgb(196, 196, 196);
+}
+
+table,
+tr,
+th,
+td {
+    border: 2px solid rgb(161, 161, 161);
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    /* margin: 10px 0; */
+}

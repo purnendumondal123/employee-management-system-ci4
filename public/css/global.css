@@ -1,0 +1,86 @@
+/* =========================
+   Reset CSS
+========================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   Global Styles
+========================= */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(33, 33, 57);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+/* =========================
+   Common Elements
+========================= */
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+input,
+textarea,
+select{
+    font-family: inherit;
+    outline: none;
+}
+
+/* =========================
+   Selection Color
+========================= */
+
+::selection{
+    background-color: rgb(143, 39, 241);
+    color: white;
+}
+
+/* =========================
+   Scrollbar
+========================= */
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(33, 33, 57);
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(143, 39, 241);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(120, 30, 210);
+}

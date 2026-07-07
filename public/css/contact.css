@@ -1,0 +1,105 @@
+.contact-container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+/* Header */
+
+.contact-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-header h1{
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.contact-header p{
+    color: #d0d0d0;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+/* Contact Card */
+
+.contact-card{
+    background-color: rgb(42,42,78);
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.contact-card h2{
+    margin-bottom: 25px;
+    color: #ffc107;
+}
+
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.contact-item{
+    background-color: rgb(55,55,95);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.contact-item strong{
+    display: block;
+    color: #9b59ff;
+    margin-bottom: 5px;
+}
+
+/* Address */
+
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.address-card{
+    background-color: rgb(42,42,78);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.address-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.address-item{
+    background-color: rgb(55,55,95);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.address-item strong{
+    display: block;
+    color: #ffc107;
+    margin-bottom: 5px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px){
+
+    .contact-header h1{
+        font-size: 2rem;
+    }
+
+    .contact-info{
+        grid-template-columns: 1fr;
+    }
+
+    .address-grid{
+        grid-template-columns: 1fr;
+    }
+}

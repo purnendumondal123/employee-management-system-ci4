@@ -1,0 +1,51 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(38, 38, 97);
+    height: 70px;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 23px 0;
+}
+
+
+/* ++++++++ about page css ++++++++++*/
+.section1 {
+    display: flex;
+}
+section>div {
+    /* background-color: red; */
+    /* width: 45%; */
+    margin: 10px 20px
+}
+section .section-left {
+    width: 60%;
+}
+.section-left li span {
+    color: yellow;
+}
+
+section .section-right {
+    width: 35%;
+}
+
+section ul li {
+    list-style: none;
+}
+div h3 {
+    padding: 20px 0 5px 0;
+}
+
+section>div img {
+    padding: 5px;
+}
+
+.section2 {
+    padding: 0 20px;
+    margin: -20px 0;
+    /* height: 200px; */
+}

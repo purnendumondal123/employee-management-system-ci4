@@ -1,0 +1,60 @@
+        form {
+            margin-left: 33vw;
+        }
+
+        .box {
+            width: 350px;
+            padding: 0 25px;
+        }
+
+        label {
+            display: block;
+            padding: 5px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        input {
+            width: 300px;
+            padding: 5px;
+        }
+
+        input[type="submit"] {
+            width: 100px;
+            height: 30px;
+            margin: 10px 0;
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        div a {
+            /* text-decoration: none; */
+            color: rgb(0, 0, 165);
+            font-weight: bold;
+        }
+
+        div .anc {
+            margin-top: 5px;
+        }
+
+
+
+        .error-msg {
+            background-color: red;
+            color: white;
+            width: 90%;
+            height: 25px;
+            text-align: center;
+            margin-top: 14px;
+            border-radius: 5px;
+        }
+
+        .forg-error {
+            margin: 0px;
+            padding: 0px;
+        }

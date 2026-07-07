@@ -1,0 +1,175 @@
+/* =========================
+   Navbar
+========================= */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(38, 38, 97);
+
+    padding: 0 60px;
+    min-height: 70px;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.left{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+/* =========================
+   Navbar
+========================= */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 60px;
+
+    background-color: rgb(38, 38, 97);
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.left{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 25px;
+}
+
+.nav-menu li{
+    list-style: none;
+    padding-top: 5px ;
+}
+
+.active{
+    /* max-width: 100%; */
+    /* padding: 20px; */
+    /* height: 20px ; */
+    padding:5px 10px;
+    border-radius: 5px;
+    background-color:rgb(46, 182, 236);
+}
+
+.nav-menu a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-menu a:hover{
+    color: yellow;
+    padding:5px 10px;
+    border-radius: 5px;
+    background-color:red;
+}
+
+/* =========================
+   Buttons
+========================= */
+
+.nav-actions{
+    display: flex;
+    gap: 10px;
+}
+
+.upload-btn{
+    padding: 8px 15px;
+    background-color: rgb(143, 39, 241);
+    color: white;
+    border-radius: 6px;
+}
+
+.upload-btn:hover{
+    background-color: rgb(120, 30, 210);
+}
+
+.logout-btn{
+    padding: 8px 15px;
+    background-color: crimson;
+    color: white;
+    border-radius: 6px;
+}
+
+.logout-btn:hover{
+    background-color: rgb(180, 0, 36);
+}
+
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width:768px){
+
+    nav{
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .right{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-menu{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-actions{
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
+
+/* =========================
+   Responsive Navbar
+========================= */
+
+@media (max-width: 768px){
+
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+
+        padding: 15px;
+        min-height: auto;
+    }
+
+    .left{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,145 @@
+.home-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Hero Section */
+
+.hero-section {
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-right {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-right img {
+    width: 100%;
+    max-width: 450px;
+}
+
+.hero-left h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero-left h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.highlight-name {
+    color: #9b59ff;
+}
+
+.hero-text {
+    line-height: 1.8;
+    color: #cfcfcf;
+    margin-bottom: 25px;
+}
+
+/* Buttons */
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary-custom,
+.btn-secondary-custom {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.btn-primary-custom {
+    background: #7d3cff;
+    color: white;
+}
+
+.btn-primary-custom:hover {
+    background: #6330cc;
+}
+
+.btn-secondary-custom {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-secondary-custom:hover {
+    background: white;
+    color: black;
+}
+
+/* Skills */
+
+.skills-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+}
+
+.skill-card {
+    background: rgb(42, 42, 78);
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    transition: .3s;
+    text-align: center;
+}
+
+
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+.skill-card h3 {
+    color: white;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-left h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-left h2 {
+        font-size: 1.5rem;
+    }
+}
