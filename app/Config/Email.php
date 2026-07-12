@@ -9,12 +9,12 @@ class Email extends BaseConfig
     /**
      * From Email
      */
-    public string $fromEmail = 'purnendu.india123@gmail.com';
+    public string $fromEmail = "";
 
     /**
      * From Name
      */
-    public string $fromName = 'CI4_User_Login';
+    public string $fromName = "";
 
     /**
      * Recipients
@@ -44,12 +44,12 @@ class Email extends BaseConfig
     /**
      * SMTP Username
      */
-    public string $SMTPUser = '';
+    public string $SMTPUser = "";
 
     /**
      * SMTP App Password
      */
-    public string $SMTPPass = '';
+    public string $SMTPPass = "";
 
     /**
      * SMTP Port

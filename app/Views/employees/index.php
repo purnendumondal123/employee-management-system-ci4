@@ -45,7 +45,7 @@
 
                         <thead class="table-dark">
                             <tr>
-                                <th width="60">#</th>
+                                <th width="60">SL No</th>
                                 <th>Employee Code</th>
                                 <th>Name</th>
                                 <th>Email</th>
@@ -59,7 +59,11 @@
 
                             <?php if (!empty($employees)) : ?>
 
-                                <?php $i = 1; ?>
+                                <?php
+                                $perPage = 2; // paginate(2) 
+                                $currentPage = $pager->getCurrentPage();
+                                $i = 1 + ($perPage * ($currentPage - 1));
+                                ?>
 
                                 <?php foreach ($employees as $employee) : ?>
 
@@ -78,7 +82,7 @@
                                         <td><?= esc($employee['mobile']) ?></td>
 
                                         <td>
-                                            <?php if ($employee['status'] == 1) : ?>
+                                            <?php if ($employee['status'] == 'active') : ?>
                                                 <span class="badge bg-success">Active</span>
                                             <?php else : ?>
                                                 <span class="badge bg-danger">Inactive</span>
@@ -125,6 +129,7 @@
                         </tbody>
 
                     </table>
+                    <?= $pager->links('default', 'bootstrap') ?>
 
                 </div>
 
