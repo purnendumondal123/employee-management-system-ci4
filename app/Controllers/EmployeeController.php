@@ -21,7 +21,7 @@ class EmployeeController extends BaseController
 
     public function index()
     {
-        $data['employees'] = $this->employeeModel->paginate(2);
+        $data['employees'] = $this->employeeModel->paginate();
         $data['pager'] = $this->employeeModel->pager;
 
         return view('employees/index', $data);
