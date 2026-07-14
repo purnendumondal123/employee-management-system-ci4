@@ -153,6 +153,9 @@ http://localhost:8080
 
 # First Admin Setup
 
+before login run this command - php spark db:seed AdminSeeder
+create default admin email (**admin@example.com**) password is - (**Admin@123**)
+
 After the first registration, every user is created with the default role **employee**.
 
 To access the Admin Panel for the first time, update the user's role from **employee** to **admin** in the **employees** table.
