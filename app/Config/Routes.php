@@ -100,11 +100,8 @@ $routes->group('employees', ['filter' => 'admin'], function ($routes) {
 
     $routes->post('update/(:num)', 'EmployeeController::update/$1');
 
-    $routes->get('delete/(:num)', 'EmployeeController::delete/$1');
-
     $routes->post('delete/(:num)', 'EmployeeController::delete/$1');
 
-    $routes->post('datatable', 'EmployeeController::datatable');
 });
 
 /*
